@@ -1,6 +1,6 @@
 # Caze
 
-A WebGL maze game built with Three.js and Box2dWeb. Play it here: http://wwwtyro.github.io/Astray/
+A WebGL maze game built with Three.js and Box2dWeb. Play it here: https://sidmalladi.github.io/8710/
 
 Documentation:
 Since ancient times, maze games have captivated players with their rich history and challenging navigation and discovery. A modern twist on this beloved genre, "Caze" immerses the player in a 3D maze where they must navigate a ball to the other side. The basic goal of "Caze" is to move a ball through a sequence of progressively difficult mazes in order to reach the exit. The arrow keys on the keyboard serve as the player's primary tool; however, Vim fans will value the additional support for the 'h', 'j', 'k', and 'l' keys. After completing a level, players will encounter increasingly difficult mazes that require more skill and strategy.
