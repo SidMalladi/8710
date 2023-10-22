@@ -300,7 +300,7 @@
 			//if there are keys in the current combo
 			if(keys.length) {
 				if(!keyBindingGroups[keys.length]) { keyBindingGroups[keys.length] = []; }
-
+ 
 				//define the
 				var keyBinding = {
 					"callback": callback,
