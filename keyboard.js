@@ -15,6 +15,7 @@
     }
 }(this, function() {
 
+	//polyfills for ms's peice o' shit browsers
 	function bind(target, type, handler) { if (target.addEventListener) { target.addEventListener(type, handler, false); } else { target.attachEvent("on" + type, function(event) { return handler.call(target, event); }); } }
 	[].indexOf||(Array.prototype.indexOf=function(a,b,c){for(c=this.length,b=(c+~~b)%c;b<c&&(!(b in this)||this[b]!==a);b++);return b^c?b:-1;});
 
@@ -299,7 +300,7 @@
 			//if there are keys in the current combo
 			if(keys.length) {
 				if(!keyBindingGroups[keys.length]) { keyBindingGroups[keys.length] = []; }
-
+ 
 				//define the
 				var keyBinding = {
 					"callback": callback,
